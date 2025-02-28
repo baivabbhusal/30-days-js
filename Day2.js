@@ -34,6 +34,6 @@ else{
 
 //Activity-4 Ternary Operator
 let number=-34;
-let result=(number>0)?"Its positive":"Else negative";
+let result=(number>0)?"Its positive":"negative";
 console.log(result);
 
