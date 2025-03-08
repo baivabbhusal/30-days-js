@@ -17,6 +17,28 @@ const books=document.querySelector("#books");
 const li=document.createElement("li");
 const liText=document.createTextNode("Rich Dad Poor Dad");
 li.appendChild(liText);
-document.body.books.appendChild(li);
+books.appendChild(li);
+
+//Activity 3:Removing Elements
+
+changeColor.remove();
+
+//Activity 4:Modifying Attributes and classes
+const image=document.querySelector("img");
+image.src="pic.jpg";
+
+//add and remove a class to/from an html element
+const changeClass=document.querySelector("#change-class");
+changeClass.className="add-class";
+changeClass.classList.remove("add-class");
+
+//Activity 5:Event Handliing
+const button=document.querySelector("#button");
+button.addEventListener("click",()=>{
+    changeClass.innerText="I am changed by button click."
+})
+
+
+
 
 

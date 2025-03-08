@@ -24,10 +24,10 @@ button.addEventListener("mouseout",()=>{
 
 //Activity 3:Keyboard Events
 //Add a keydown event listener to an input field that logs the key pressed to the console
-const writeText=document.querySelector("log-to-console");
-writeText.addEventListener("keydown",(event)=>{
-    console.log("Key pressed:",event.key);
-});
+// const writeText=document.querySelector("log-to-console");
+// writeText.addEventListener("keydown",(event)=>{
+//     console.log("Key pressed:",event.key);
+// });
 
 
 //Activity 4:Form event
@@ -39,3 +39,6 @@ form.addEventListener("submit",function(e){
 const name=document.querySelector("#name").value;
 console.log(name);
 });
+
+//Add a change event listener to a select dropdown that displays the selected value in a paragraph.
+
